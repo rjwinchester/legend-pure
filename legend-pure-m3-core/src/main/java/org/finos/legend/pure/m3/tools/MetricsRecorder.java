@@ -57,7 +57,6 @@ public class MetricsRecorder
         }
         catch (UnknownHostException e)
         {
-            e.printStackTrace();
         }
     }
 

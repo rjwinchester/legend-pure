@@ -66,7 +66,6 @@ public class LifeCycle
             }
             catch (IOException |RuntimeException|Error e)
             {
-                e.printStackTrace();
                 pureSession.getPureRuntime().getCache().deleteCache();
                 throw e;
             }
